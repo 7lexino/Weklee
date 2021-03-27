@@ -1,0 +1,57 @@
+textarea{
+border:solid 1px #999;
+border-radius:5px;
+resize:none;
+padding:10px;
+width:250px;
+height:30px;
+transition:all 1s;   
+-moz-transition:all 1s;
+-o-transition:all 1s;
+-ms-transition:all 1s;
+-webkit-transition:all 1s;
+}
+textarea:focus{
+width:300px;
+height:50px;
+box-shadow:0 0 15px #999;
+-moz-box-shadow:0 0 15px #999;
+-o-box-shadow:0 0 15px #999;
+-ms-box-shadow:0 0 15px #999;
+-webkit-box-shadow:0 0 15px #999;
+}
+input{
+width:100px;
+padding:5px;
+background:-moz-linear-gradient(#dadada 0%, #fff 100%);
+background:-o-linear-gradient(#dadada 0%, #fff 100%);
+background:-ms-linear-gradient(#dadada 0%, #fff 100%);
+background:-webkit-linear-gradient(#dadada 0%, #fff 100%);
+color:blue;
+border:solid 1px #DADADA;
+border-radius:5px;   
+}
+input:focus{
+background:-moz-linear-gradient(#fff 0%,#dadada 100%);
+background:-o-linear-gradient(#fff 0%, #dadada  100%);
+background:-ms-linear-gradient(#fff 0%, #dadada  100%);
+background:-webkit-linear-gradient(#fff 0%, #dadada  100%);   
+color:red;
+}
+#comentarios{
+width:300px;
+border:solid 1px #DADADA;
+border-radius:5px;
+background:#f9f9f9;
+color:#999;
+padding:5px;
+margin:5px auto;
+text-align:justify;   
+}
+#texto{
+width:350px;
+border:solid 1px #DADADA;
+border-radius:5px;   
+margin:5px;
+padding:5px;
+}

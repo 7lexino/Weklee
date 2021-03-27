@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*).html?$      v_p.php?titulodelpostfinal=$1

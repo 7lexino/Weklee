@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^(\w+)?$ vpu.php?usuario=$1
+RewriteRule ^(\w+)/?$ vpu_2.php?usuario=$1
